@@ -10,7 +10,7 @@ const hostname = os.hostname();
 const Logger = winston.createLogger({
 	level: isDevelopment ? "debug" : "info",
 	format: winston.format.json(),
-	defaultMeta: { service: "blooket-bot" },
+	defaultMeta: { service: "kōri" },
 	transports: [
 		new winston.transports.File({ filename: "error.log", level: "error" }),
 		new winston.transports.File({ filename: "combined.log" }),
