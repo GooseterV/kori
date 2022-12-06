@@ -1598,3 +1598,5 @@
 {"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
 {"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
 {"level":"info","message":"Attempted to run command 'profile' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
