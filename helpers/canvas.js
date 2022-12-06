@@ -58,12 +58,12 @@ function createBorderedRectangle(ctx, x, y, width, height, borderWidth, borderCo
 }
 
 
-async function createCanvasFromImage(pathOrUrl, margins=[0, 0]) {
+async function createCanvasFromImage(pathOrUrl, margins=[0, 0], width, height) {
 	const image  = await loadImage(pathOrUrl);
 	let marginX = (margins[0]||0), marginY = (margins[1]||0);
-	const canvas = createCanvas(image.width+marginX, image.height+marginY);
+	const canvas = createCanvas((width||image.width)+marginX, (height||image.height)+marginY);
 	const ctx = canvas.getContext("2d");
-	ctx.drawImage(image, marginX/2, marginY/2, image.width, image.height);
+	ctx.drawImage(image, marginX/2, marginY/2, width||image.width, height||image.height);
 	return {canvas, ctx};
 }
 

@@ -32,7 +32,6 @@ for (let file of commandFiles) {
 
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
-
 	const command = interaction.client.commands.get(interaction.commandName);
 
 	if (!command) {
@@ -45,8 +44,10 @@ client.on(Events.InteractionCreate, async interaction => {
 		await command.execute(interaction);
 		Logger.info(`Attempted to run command '${interaction.commandName}' from '${interaction.user.tag}'.`);
 	} catch (error) {
-		console.error(error);
-		await interaction.reply({ content: "Uh-Oh! Something went wrong!", ephemeral: true });
+		Logger.error(error);
+		console.log(error);
+		if (interaction.deferred) return interaction.editReply({ content: "Uh-Oh! Something went wrong!", ephemeral: true });
+		else await interaction.reply({ content: "Uh-Oh! Something went wrong!", ephemeral: true });
 	}
 });
 
