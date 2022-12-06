@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder, AttachmentBuilder } = require("discord.js");
 const dotenv = require("dotenv");
-const { Buffer } = require("buffer");
+const { Buffer} = require("buffer");
 const cvs = require("../helpers/canvas.js");
 const config = require("../config.json");
 const StackBlur = require("stackblur-canvas");
@@ -22,16 +22,19 @@ async function execute(interaction) {
 		.setImage("attachment://profile.jpg")
 		.setTimestamp(new Date());
 	await interaction.deferReply();
-	const {canvas, ctx} = await cvs.createCanvasFromImage("./assets/background.jpg", [0, 0], 475, 150);
-	StackBlur.canvasRGBA(canvas, 0, 0, canvas.width, canvas.height, 2.5);
+	const h = await sharp(Buffer.from(await (await fetch(await await (await cvs.createCanvasFromImage("./assets/background.jpg", [0, 0],)).canvas.toDataURL("image/png"))).arrayBuffer())).toFormat("png").resize(475, 150).toBuffer();
+	const {canvas, ctx} = await cvs.createCanvasFromImage("data:image/png;base64,"+h.toString("base64url"));
 
-	ctx.font = "25px Ubuntu Bold";
-	ctx.fillStyle = config["color-font-light"];
-	ctx.textAlign = "center";
-	ctx.fillText(interaction.user.tag, canvas.width/2, 50);
 	
-	let img = await loadImage(await sharp(Buffer.from(await (await fetch(await interaction.user.displayAvatarURL({format: "png", size: 1024}))).arrayBuffer())).toFormat("png").toBuffer());
-	ctx.drawImage(img, 25, 25, 100, 100);
+	StackBlur.canvasRGBA(canvas, 0, 0, canvas.width, canvas.height, 0);
+
+	ctx.font = "35px Ubuntu Bold";
+	ctx.fillStyle = config["color-font-dark"];
+	ctx.textAlign = "right";
+	ctx.fillText(interaction.user.tag, canvas.width-canvas.width/4.75, 50);
+	
+	let img = await loadImage(await sharp(Buffer.from(await (await fetch(await interaction.user.displayAvatarURL({format: "svg", size: 1024}))).arrayBuffer())).toFormat("png").resize(100, 100).toBuffer());
+	ctx.drawImage(img, 25, 25);
 	
 	const file = new AttachmentBuilder(Buffer.from(canvas.toBuffer()), "profile.jpg");
 	try {
