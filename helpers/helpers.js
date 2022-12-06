@@ -1,0 +1,132 @@
+const latencyMappings = {
+	"api": {
+		n:0,
+		strict:20,
+		normal:30,
+		immediate: {
+			min: 0,
+			max: 15
+		},
+		fast: {
+			min: 15,
+			max: 35
+		},
+		medium: {
+			min: 36,
+			max: 55
+		},
+		slow: {
+			min: 56,
+			max: 100
+		},
+		sluggish: {
+			min: 101,
+			max: 200
+		},
+		overloaded: {
+			min: 201,
+			max: Infinity
+		}
+		
+		
+	},
+	"bot": {
+		n:1,
+		strict:300,
+		normal:400,
+		immediate: {
+			min: 0,
+			max: 200
+		},
+		fast: {
+			min: 201,
+			max: 450
+		},
+		medium: {
+			min: 450,
+			max: 700
+		},
+		slow: {
+			min: 701,
+			max: 950
+		},
+		sluggish: {
+			min: 951,
+			max: 1200
+		},
+		overloaded: {
+			min: 1201,
+			max: Infinity
+		}
+
+	},
+	"canvas": {
+		n:2,
+		strict:135,
+		normal:200,
+		immediate: {
+			min:0,
+			max:100
+		},
+		fast: {
+			min: 101,
+			max: 200
+		},
+		medium: {
+			min: 201,
+			max: 350
+		},
+		slow: {
+			min: 351,
+			max: 500
+		},
+		sluggish: {
+			min: 501,
+			max: 1000
+		},
+		overloaded: {
+			min: 1001,
+			max: Infinity
+		}
+	},
+};
+
+const latencyColors = {
+	"immediate": "#00ff00",
+	"fast": "#00ff00",
+	"medium": "#d9c22b",
+	"slow": "#c76f0a",
+	"sluggish": "#c70a0a",
+	"overloaded": "#700009"
+}; 
+const speeds = ["immediate", "fast", "medium", "slow", "sluggish", "overloaded"];
+const types = ["api", "bot", "canvas"];
+const modes = ["strict", "normal"];
+
+/**
+ * Checks the latency for given bot/api processes.
+ * @constructor
+ * @param {number} latency - The latency to check.
+ * @param {string} mode - The mode (strict or normal).
+ * @param {string} type - The type (bot, api, canvas).
+ */
+function latencyCheckers(latency, mode, type) {
+	let latencyType = latencyMappings[type];
+	let latencySpeeds = Object.entries(latencyType).filter(x=>speeds.includes(x[0]));
+	if ("strict" === mode) {
+		latencySpeeds.map(x=>{
+			x[1].min *= .875;
+			x[1].max *= .875;
+		});
+	}
+	let latencySpeed = latencySpeeds.find(x=>latency <= x[1].max && latency >= x[1].min)[0];
+	return {latencySpeed, color:latencyColors[latencySpeed]};
+}
+
+module.exports = {
+	latencyCheckers,
+	latencyMappings,
+	speeds,
+	types,
+	modes
+};

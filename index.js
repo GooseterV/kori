@@ -43,7 +43,7 @@ client.on(Events.InteractionCreate, async interaction => {
 	try {
 
 		await command.execute(interaction);
-		Logger.info(`Attempted to run command '${interaction.commandName}'.`);
+		Logger.info(`Attempted to run command '${interaction.commandName}' from '${interaction.user.tag}'.`);
 	} catch (error) {
 		console.error(error);
 		await interaction.reply({ content: "Uh-Oh! Something went wrong!", ephemeral: true });
