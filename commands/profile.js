@@ -24,7 +24,7 @@ async function execute(interaction) {
 	await interaction.deferReply();
 	const h = await sharp(Buffer.from(await (await fetch(await await (await cvs.createCanvasFromImage("./assets/background.jpg", [0, 0],)).canvas.toDataURL("image/png"))).arrayBuffer())).toFormat("png").resize(475, 150).toBuffer();
 	const {canvas, ctx} = await cvs.createCanvasFromImage("data:image/png;base64,"+h.toString("base64url"));
-
+	
 	
 	StackBlur.canvasRGBA(canvas, 0, 0, canvas.width, canvas.height, 0);
 
