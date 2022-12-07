@@ -65,7 +65,7 @@ async function execute(interaction) {
 	ctx.fillStyle = canvasSpeed.color;
 	ctx.fillText(canvasSpeed.latencySpeed, canvas.width - 75, 425);
 	
-	const file = new AttachmentBuilder(Buffer.from(canvas.toBuffer()), "background.jpg");
+	const file = new AttachmentBuilder(Buffer.from(canvas.toBuffer()), {name:"background.jpg"});
 	try {
 		await interaction.editReply({ embeds: [e], files: [file], ephemeral: false });
 	} catch (err) {
