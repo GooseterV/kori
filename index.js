@@ -38,9 +38,11 @@ client.on(Events.InteractionCreate, async interaction => {
 		console.warn(`No command matching ${interaction.commandName} was found.`);
 		return;
 	}
-
+	let cmds = parseInt(fs.readFileSync("./CMDS.txt", "utf8"));
+	cmds += 1;
+	fs.writeFileSync("./CMDS.txt", cmds.toString());
 	try {
-
+		
 		await command.execute(interaction);
 		Logger.info(`Attempted to run command '${interaction.commandName}' from '${interaction.user.tag}'.`);
 	} catch (error) {

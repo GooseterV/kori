@@ -1693,3 +1693,969 @@
 {"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
 {"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
 {"level":"info","message":"Attempted to run command 'profile' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"code":10062,"level":"error","method":"POST","rawError":{"code":10062,"message":"Unknown interaction"},"requestBody":{"json":{"data":{},"type":5}},"service":"kōri","status":404,"url":"https://discord.com/api/v10/interactions/1050542556355772416/aW50ZXJhY3Rpb246MTA1MDU0MjU1NjM1NTc3MjQxNjpzb0d4M1d6U08weTVpbE12eEZRUXU0YjBpbVhnUDVFd0dSMkdROGQ4R3VvQXVGN0dmbmV4dTBnc0RXcWJPcGluWFRoN1FDbGM2aWdDU3dGMjkxRkZPSWpLRGR4blgwZVFMZXVjM2I1Unk3SU1RdVFJZU5peDlkSXNIUXFqRHJoaQ/callback"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"code":10062,"level":"error","method":"POST","rawError":{"code":10062,"message":"Unknown interaction"},"requestBody":{"json":{"data":{},"type":5}},"service":"kōri","status":404,"url":"https://discord.com/api/v10/interactions/1050547977690824815/aW50ZXJhY3Rpb246MTA1MDU0Nzk3NzY5MDgyNDgxNTp2aFNSYmszWVV0bGlEYWlRRUFCM1JjcGlqYmhvVGxtM05kakJpeENRamJ1NVpRTjV0TUYyblh5V1VkcDU5SVpJOWJvUnF2MHcwWDBXVUhDOTBQU1J3emdLV0FHaFNibXVXTDBIcVFQT1lJMTJEQ2w3V0dvQ09TQklSTFdscEtMTQ/callback"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'profile' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'query'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"errors":[{"expected":null,"given":{},"name":"Error","validator":"s.literal(V)"},{"given":{},"name":"Error","validator":"s.string"}],"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"errors":[{"expected":null,"given":{},"name":"Error","validator":"s.literal(V)"},{"given":{},"name":"Error","validator":"s.string"}],"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"errors":[{"expected":null,"given":{},"name":"Error","validator":"s.literal(V)"},{"given":{},"name":"Error","validator":"s.string"}],"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"errors":[{"expected":null,"given":{},"name":"Error","validator":"s.literal(V)"},{"given":{},"name":"Error","validator":"s.string"}],"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"errors":[{"expected":null,"given":{},"name":"Error","validator":"s.literal(V)"},{"given":{},"name":"Error","validator":"s.string"}],"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'profile' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Omar.#2141'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Omar.#2141'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ENCHANTED9#5634'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'flam#1119'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'flam#1119'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'flam#1119'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ENCHANTED9#5634'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'profile' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'profile' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Min🎅 Dim☃nsi❄ns#6765'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Min🎅 Dim☃nsi❄ns#6765'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'PetuhWabbit#5719'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'PetuhWabbit#5719'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'It_ME#6215'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'It_ME#6215'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'It_ME#6215'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'It_ME#6215'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Min🎅 Dim☃nsi❄ns#6765'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'It_ME#6215'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from '𝕏𝕓𝟘𝕏$𝕡𝕖a𝕣𝕖#9551'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Min🎅 Dim☃nsi❄ns#6765'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ZackiBoiz#9947'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Min🎅 Dim☃nsi❄ns#6765'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Min🎅 Dim☃nsi❄ns#6765'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Min🎅 Dim☃nsi❄ns#6765'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'SmackAbc#3421'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'SmackAbc#3421'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'OneMinesraft2#5394'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Omar.#2141'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Omar.#2141'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Omar.#2141'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'yoshen#0547'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'FreshestCheese#1758'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Omar.#2141'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Cayden9000#9000'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Omar.#2141'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'ENCHANTED9#5634'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"error","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'painbow#8759'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'blank#5014'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'chat' from 'TheR1000#5053'.","service":"kōri"}
+{"level":"info","message":"Attempted to run command 'info' from 'Goose#4825'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
