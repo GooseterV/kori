@@ -2659,3 +2659,6 @@
 {"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
 {"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
 {"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
