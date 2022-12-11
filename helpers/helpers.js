@@ -1,3 +1,10 @@
+const crypto = require("crypto");
+const api = require("./api.js");
+const dotenv = require("dotenv");
+dotenv.config();
+
+
+
 const latencyMappings = {
 	"api": {
 		n:0,
@@ -152,11 +159,62 @@ function timeSince(date) {
 	return Math.floor(seconds) + " seconds";
 }
 
+const getRandomBytes = (length) => {
+	return new Promise((resolve, reject) => {
+		crypto.randomBytes(length, (err, buf) => {
+			if (err) {
+				reject(err);
+			} else {
+				resolve(buf);
+			}
+		});
+	});
+};
+
+function generatePassword(length) {
+	let result = "";
+	let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[]\\:;?><,./-=";
+	let charactersLength = characters.length;
+	for (let i = 0; i < length; i++) {
+		result += characters.charAt(Math.floor(Math.random() * charactersLength));
+	}
+	return result;
+}
+
+
+async function getRecipeTags() {
+	// eslint-disable-next-line no-undef
+	let auth = new api.AuthManager({cookie:null, credentials:false, isCookieBased:false, token:process.env.RAPID_API_KEY});
+	let resp = await api.GET("https://tasty.p.rapidapi.com/tags/list", null, {"X-RapidAPI-Key": auth.getToken()});
+	return await resp.json();
+}
+
+async function getRecipes(from=0, amount=20, tags=[], query="") {
+	// eslint-disable-next-line no-undef
+	let auth = new api.AuthManager({cookie:null, credentials:false, isCookieBased:false, token:process.env.RAPID_API_KEY});
+	let resp = await api.GET("https://tasty.p.rapidapi.com/recipes/list", {from, size:amount, tags, q:query}, {"X-RapidAPI-Host": "tasty.p.rapidapi.com", "X-RapidAPI-Key": auth.getToken()});
+	return await resp.json();
+}
+
+async function getRecipeInfo(id) {
+	// eslint-disable-next-line no-undef
+	let auth = new api.AuthManager({cookie:null, credentials:false, isCookieBased:false, token:process.env.RAPID_API_KEY});
+	let resp = await api.GET("https://tasty.p.rapidapi.com/recipes/get-more-info", {id}, {"X-RapidAPI-Host": "tasty.p.rapidapi.com", "X-RapidAPI-Key": auth.getToken()});
+	return await resp.json();
+}
+
+
 module.exports = {
 	latencyCheckers,
 	latencyMappings,
 	speeds,
 	types,
 	modes,
-	timeSince
+	timeSince,
+	generatePassword,
+	getRandomBytes,
+	getRecipeTags,
+	getRecipes,
+	getRecipeInfo
+
 };

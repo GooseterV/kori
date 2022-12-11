@@ -7,5 +7,6 @@
 	"color-third": "#113cbd",
 	"color-font-light": "#e6f8ff",
 	"color-font-dark":"#04011a",
-	"color-font-medium": "#abbbc2"
+	"color-font-medium": "#abbbc2",
+	"whitespace-char": "  "
 }

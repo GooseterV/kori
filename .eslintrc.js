@@ -29,5 +29,8 @@ module.exports = {
 		"no-undef": [
 			"warn"
 		],
+		"no-irregular-whitespace": [
+			"warn"
+		]
 	}
 };

@@ -1,28 +1,19 @@
 const { SlashCommandBuilder, EmbedBuilder} = require("discord.js");
 const dotenv = require("dotenv");
-const ai = require("../helpers/ai.js");
 const config = require("../config.json");
+const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
 dotenv.config();
 
 const cmd = new SlashCommandBuilder()
-	.setName("chat")
-	.setDescription("Chat with chatgpt.")
-	.addStringOption(option => option
-		.setName("query")
-		.setDescription("The query to ask ChatGPT-3.")
-		.setRequired(true)
-	);
+	.setName("fact")
+	.setDescription("Get a random fact.");
 
 async function execute(interaction) {
-	let t = Date.now();
 	await interaction.deferReply();
-	const res = await ai.makeQuery(interaction.options.getString("query"));
+	const res = await (await fetch("https://uselessfacts.jsph.pl/random.json?language=en")).json();
 	const e = new EmbedBuilder()
 		.setColor(config["color-main"])
-		.setFooter({text:Date.now()-t + "ms", iconURL:interaction.user.displayAvatarURL({format:"png", size:512})})
-		.setTitle(interaction.user.tag)
-		.setDescription(res)
-		.setTimestamp(Date.now());
+		.setDescription(res.text);
 	try {
 		await interaction.editReply({ embeds: [e], ephemeral: false });
 	} catch (err) {

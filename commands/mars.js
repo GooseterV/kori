@@ -1,28 +1,22 @@
 const { SlashCommandBuilder, EmbedBuilder} = require("discord.js");
 const dotenv = require("dotenv");
-const ai = require("../helpers/ai.js");
 const config = require("../config.json");
+const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
 dotenv.config();
 
 const cmd = new SlashCommandBuilder()
-	.setName("chat")
-	.setDescription("Chat with chatgpt.")
-	.addStringOption(option => option
-		.setName("query")
-		.setDescription("The query to ask ChatGPT-3.")
-		.setRequired(true)
-	);
+	.setName("mars")
+	.setDescription("Get a random picture from Mars.");
 
 async function execute(interaction) {
-	let t = Date.now();
 	await interaction.deferReply();
-	const res = await ai.makeQuery(interaction.options.getString("query"));
+	// eslint-disable-next-line no-undef
+	const res = await (await fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=${~~(Math.random()*2.5e3)}&api_key=`+process.env.NASA_API_KEY)).json();
+	const pick = res.photos[~~(Math.random()*res.photos.length)];
 	const e = new EmbedBuilder()
 		.setColor(config["color-main"])
-		.setFooter({text:Date.now()-t + "ms", iconURL:interaction.user.displayAvatarURL({format:"png", size:512})})
-		.setTitle(interaction.user.tag)
-		.setDescription(res)
-		.setTimestamp(Date.now());
+		.setImage(pick.img_src)
+		.setTitle(pick.earth_date + " - " + pick.camera.full_name);
 	try {
 		await interaction.editReply({ embeds: [e], ephemeral: false });
 	} catch (err) {
