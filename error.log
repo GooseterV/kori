@@ -97,3 +97,8 @@
 {"level":"error","service":"kōri"}
 {"level":"error","service":"kōri"}
 {"level":"error","service":"kōri"}
+{"level":"error","originalError":{"response":{},"statusCode":403,"statusText":"Forbidden"},"response":{},"service":"kōri","statusCode":403,"statusText":"Forbidden"}
+{"level":"error","originalError":{"response":{},"statusCode":403,"statusText":"Forbidden"},"response":{},"service":"kōri","statusCode":403,"statusText":"Forbidden"}
+{"level":"error","originalError":{"response":{},"statusCode":403,"statusText":"Forbidden"},"response":{},"service":"kōri","statusCode":403,"statusText":"Forbidden"}
+{"level":"error","originalError":{"response":{},"statusCode":403,"statusText":"Forbidden"},"response":{},"service":"kōri","statusCode":403,"statusText":"Forbidden"}
+{"level":"error","originalError":{"response":{},"statusCode":403,"statusText":"Forbidden"},"response":{},"service":"kōri","statusCode":403,"statusText":"Forbidden"}
