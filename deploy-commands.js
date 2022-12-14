@@ -8,7 +8,7 @@ loadEnv();
 // eslint-disable-next-line no-undef
 const token = process.env.BOT_TOKEN;
 const commands = [];
-const commandFiles = fs.readdirSync("./commands").filter(file => file.endsWith(".js"));
+const commandFiles = fs.readdirSync("./commands").filter(file => file.endsWith(".js")&&!file.endsWith(".ignored.js"));
 
 // Grab the SlashCommandBuilder#toJSON() output of each command's data for deployment
 for (const file of commandFiles) {
