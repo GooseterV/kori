@@ -1,7 +1,7 @@
 {
   "name": "kori",
   "version": "1.0.0",
-  "description": "a discord bot for the snowcode competition 2022",
+  "description": "a discord bot for the snowcode hackathon 2022",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
@@ -13,8 +13,11 @@
     "url": "github.com/gooseterv/kori"
   },
   "keywords": [
-    "blooket"
+    "bot", "discord", "winter"
   ],
+  "engines": {
+    "node": "16.17.0"
+  },
   "author": "goose",
   "license": "MIT",
   "dependencies": {

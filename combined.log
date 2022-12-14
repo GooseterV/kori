@@ -7516,3 +7516,23 @@
 {"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
 {"level":"info","message":"Attempting to load command 'fact'.","service":"kōri"}
 {"level":"error","originalError":{"response":{},"statusCode":403,"statusText":"Forbidden"},"response":{},"service":"kōri","statusCode":403,"statusText":"Forbidden"}
+{"level":"info","message":"Attempting to load command 'cat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'dog'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'generatepassword'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'getrecipe'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'getrecipes'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'mars'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'fact'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'cat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'chat'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'dog'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'generatepassword'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'getrecipe'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'getrecipes'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'info'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'mars'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'profile'.","service":"kōri"}
+{"level":"info","message":"Attempting to load command 'fact'.","service":"kōri"}
