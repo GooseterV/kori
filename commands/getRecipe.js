@@ -44,19 +44,19 @@ async function execute(interaction) {
 		.setTimestamp(Date.now())
 		.addFields(
 			{name: "Nutrition", value: `
-		:fire:${config["whitespace-char"].repeat(2)}**\`${res.nutrition.calories} Calories\`**
-		:bread:${config["whitespace-char"].repeat(2)}**\`${res.nutrition.carbohydrates}g Carbs\`**
-		:cut_of_meat:${config["whitespace-char"].repeat(2)}**\`${res.nutrition.protein}g Protein\`**
-		:falafel:${config["whitespace-char"].repeat(2)}**\`${res.nutrition.fat}g Fat\`**\n\n
+		:fire:${config["whitespace-char"].repeat(2)}**\`${res.nutrition.calories||"~"} Calories\`**
+		:bread:${config["whitespace-char"].repeat(2)}**\`${res.nutrition.carbohydrates||"~"}g Carbs\`**
+		:cut_of_meat:${config["whitespace-char"].repeat(2)}**\`${res.nutrition.protein||"~"}g Protein\`**
+		:falafel:${config["whitespace-char"].repeat(2)}**\`${res.nutrition.fat||"~"}g Fat\`**\n\n
 		`, inline: true},
 			{name: "Ratings", value: `
-			${res.user_ratings.score.toFixed(2)*100}%/100% :star:
-			${res.user_ratings.count_positive} Positive Reviews :thumbsup:
-			${res.user_ratings.count_negative} Negative Reviews :thumbsdown: \n \n
+			${!res.user_ratings.score?"~":(res.user_ratings.score.toFixed(2)*100).toString()}%/100% :star:
+			${res.user_ratings.count_positive.toString()||"~"} Positive Reviews :thumbsup:
+			${res.user_ratings.count_negative.toString()||"~"} Negative Reviews :thumbsdown: \n \n
 		`, inline:true},
 			{ name: "\u200b", value: "\u200b", inline:true},
-			{name: "Yields", value: res.num_servings + " Servings", inline: true},
-			{name: "Total Time", value: res.total_time_minutes||"~" + " Minutes", inline: true},
+			{name: "Yields", value: (res.num_servings?res.num_servings.toString():"~") + " Servings", inline: true},
+			{name: "Total Time", value: (res.total_time_minutes?res.total_time_minutes.toString():"~") + " Minutes", inline: true},
 		)
 		.setURL(res.original_video_url);
 	const filter = i => (i.customId==="recipe-information"||i.customId==="ingredients-instructions") && i.user.id === interaction.user.id;

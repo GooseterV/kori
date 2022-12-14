@@ -57,7 +57,7 @@ async function execute(interaction) {
 	const getRes = (start=0, stop=interaction.options.getInteger("amount"))=> {
 		let res = resp.results.slice(start, stop);
 		let h = res.map(x=>x.recipes ? x.recipes[0] : x).map(x=>x.recipes ? x.recipes[0] : x).map(x=>({image:x.thumbnail_url, id:x.id, name:x.name, nutrition:x.nutrition||{}, time:x.total_time_minutes||"~"}));
-		let g = h.map(x=>`**${x.name}, ID: ${x.id}**\n      **\`${x.nutrition.calories||"~"} Calories\`**\n      **\`${x.nutrition.carbohydrates}g Carbs\`\n      **\`${x.nutrition.protein}g Protein\`\n      **\`${x.time} Minutes\`**\n`).join("\n");
+		let g = h.map(x=>`**${x.name}, ID: ${x.id}**\n      **\`${x.nutrition.calories||"~"} Calories\`**\n      **\`${x.nutrition.carbohydrates||"~"}g Carbs\`\n      **\`${x.nutrition.protein||"~"}g Protein\`\n      **\`${x.time||"~"} Minutes\`**\n`).join("\n");
 		return g;
 	};
 	let g = getRes();
