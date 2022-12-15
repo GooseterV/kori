@@ -13,7 +13,9 @@
     "url": "github.com/gooseterv/kori"
   },
   "keywords": [
-    "bot", "discord", "winter"
+    "bot",
+    "discord",
+    "winter"
   ],
   "engines": {
     "node": "16.17.0"
@@ -21,14 +23,18 @@
   "author": "goose",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/translate": "^7.0.4",
     "canvas": "^2.10.2",
     "chatgpt": "^2.0.5",
     "discord.js": "^14.6.0",
     "dotenv": "^16.0.3",
     "glob": "^8.0.3",
+    "google-translate-api-x": "^10.4.2",
     "latex.js": "^0.12.4",
     "lodash": "^4.17.21",
     "node-fetch": "^3.2.10",
+    "pg": "^8.8.0",
+    "sequelize": "^6.27.0",
     "sharp": "^0.31.2",
     "stackblur-canvas": "^2.5.0",
     "winston": "^3.8.2",

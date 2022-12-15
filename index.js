@@ -53,8 +53,50 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
+const choices = [
+	"in " + client.guilds.cache.size + " servers",
+	"with " + client.guilds.cache.reduce((a, g) => a + g.memberCount, 0) + " users",
+	"with " + client.commands.size + " commands",
+	"in " + client.channels.cache.size + " channels",
+	"with your mom",
+	"Made by @Goose#4825",
+	"Created for the Snowcode 2022 Hackathon",
+	"with other multi-purpose bots",
+	"with other bots",
+	"on discord",
+	"Made with <3 by Goose",
+	"Discord.js v14, Node.js v16, and JavaScript",
+	"DJS v14, Node.js v16, and JS",
+	"Deployed with Heroku && GitHub",
+	"The best bot.",
+	"Not the best bot.",
+	"It's okay, I'm here now.",
+	"Serving " + client.guilds.cache.size + " servers",
+	"Watching " + client.guilds.cache.reduce((a, g) => a + g.memberCount, 0) + " users",
+	"Playing with " + client.commands.size + " commands",
+	"Listening to " + client.channels.cache.size + " channels",
+	"<3",
+	"Kori - Ice, Icicle",
+	"Fuyu - Winter",
+	"Yuki - Snow",
+	"Ice, Icicle - Kori",
+	"Winter - Fuyu",
+	"Snow - Yuki",
+	"Christmas - Kurisumasu",
+	"Kurisumasu - Christmas",
+];
+
+
+
 client.once(Events.ClientReady, c => {
+	client.user.setActivity(choices[Math.floor(Math.random()*choices.length)], { type: "COMPETING" });
+	setInterval(() => {
+		const index = Math.floor(Math.random() * (choices.length) + 1);
+		client.user.setActivity(choices[index], { type: "COMPETING" });
+	}, 1e3*60*5);
+	client.user.setStatus("idle");
 	console.log(`Ready! Logged in as ${c.user.tag}`);
+	
 });
 
 client.login(token);
