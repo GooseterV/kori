@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node test.js",
     "start": "node index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "dev": "nodemon . | pino-pretty -i pid,hostname -t 'yyyy-mm-dd HH:MM:ss'"
   },
   "repository": {
     "type": "git",
@@ -25,19 +26,23 @@
   "dependencies": {
     "@google-cloud/translate": "^7.0.4",
     "canvas": "^2.10.2",
+    "chalk": "^5.2.0",
     "chatgpt": "^2.0.5",
+    "dayjs": "^1.11.7",
     "discord.js": "^14.6.0",
     "dotenv": "^16.0.3",
     "glob": "^8.0.3",
     "google-translate-api-x": "^10.4.2",
     "latex.js": "^0.12.4",
     "lodash": "^4.17.21",
+    "ms": "^2.1.3",
     "node-fetch": "^3.2.10",
     "pg": "^8.8.0",
+    "pino": "^8.8.0",
+    "pino-pretty": "^9.1.1",
     "sequelize": "^6.27.0",
     "sharp": "^0.31.2",
     "stackblur-canvas": "^2.5.0",
-    "winston": "^3.8.2",
     "xmldom": "^0.6.0"
   },
   "devDependencies": {

@@ -3,9 +3,10 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const wait = require("node:timers/promises").setTimeout;
-const { Client, Collection, GatewayIntentBits, Events } = require("discord.js");
-const Logger = require("./helpers/logger.js");
+const { Client, Collection, GatewayIntentBits, Events, version } = require("discord.js");
 const loadEnv = require("dotenv").config;
+const { logger } = require("./helpers/logging.js");
+const {Buffer} = require("node:buffer");
 loadEnv();
 
 // https://discord.com/api/oauth2/authorize?client_id=1049110989062295652&permissions=8&scope=bot%20applications.commands
@@ -23,31 +24,35 @@ for (let file of commandFiles) {
 	const command = require(filePath);
 	
 	if ("data" in command && "execute" in command) {
-		Logger.info(`Attempting to load command '${command.data.name}'.`);
+		logger.debug(`Loading command ${command.data.name} from ${filePath}`);
 		client.commands.set(command.data.name, command);
 	} else {
-		console.warn(`The command at ${filePath} is missing a required "data" or "execute" property.`);
+		logger.warn(`The command at ${filePath} is missing a required "data" or "execute" property.`);
 	}
 }
+
+client.on(Events.ClientReady, () => logger.info("Kori is ready!"));
+client.on(Events.Debug, m => logger.debug(m));
+client.on(Events.Warn, m => logger.warn(m));
+client.on(Events.Error, m => logger.error(m));
 
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
 	const command = interaction.client.commands.get(interaction.commandName);
 
 	if (!command) {
-		console.warn(`No command matching ${interaction.commandName} was found.`);
+		logger.warn(`No command matching ${interaction.commandName} was found.`);
 		return;
 	}
 	let cmds = parseInt(fs.readFileSync("./CMDS.txt", "utf8"));
 	cmds += 1;
 	fs.writeFileSync("./CMDS.txt", cmds.toString());
 	try {
-		
+		logger.debug(`Executing command ${interaction.commandName} by ${interaction.user.tag} in ${interaction.guild.name}`);
 		await command.execute(interaction);
-		Logger.info(`Attempted to run command '${interaction.commandName}' from '${interaction.user.tag}'.`);
 	} catch (error) {
-		Logger.error(error);
-		console.log(error);
+		logger.error(`Error executing command ${interaction.commandName}`);
+		logger.error(error);
 		if (interaction.deferred) return interaction.editReply({ content: "Uh-Oh! Something went wrong!", ephemeral: true });
 		else await interaction.reply({ content: "Uh-Oh! Something went wrong!", ephemeral: true });
 	}
@@ -77,28 +82,27 @@ const choices = [
 	"Listening to " + client.channels.cache.size + " channels",
 	"<3",
 	"Kori - Ice, Icicle",
-	"Fuyu - Winter",
-	"Yuki - Snow",
-	"Ice, Icicle - Kori",
-	"Winter - Fuyu",
-	"Snow - Yuki",
-	"Christmas - Kurisumasu",
-	"Kurisumasu - Christmas",
 ];
 
 
 
 client.once(Events.ClientReady, c => {
 	let h = choices[Math.floor(Math.random()*choices.length)];
-	client.user.setActivity(h, { type: "STREAMING" });
-	client.user.setPresence({ activities: [{ name: h, type: "STREAMING" }], status: "idle" });
+	client.user.setActivity(h);
 	setInterval(() => {
 		const index = Math.floor(Math.random() * (choices.length) + 1);
-		client.user.setActivity(choices[index], { type: "STREAMING" });
-		client.user.setPresence({ activities: [{ name: choices[index], type: "STREAMING" }], status: "idle" });
+		client.user.setActivity(choices[index]);
 	}, 1e3*60*5);
-	client.user.setStatus("idle");
-	console.log(`Ready! Logged in as ${c.user.tag}`);
+	
+	logger.info(`Logged in as ${c.user.tag.normalize("NFC")} | ${c.user.id}.`);
+	logger.info(`Node.js ${process.version} | Discord.js v${version}`);
+	logger.info(`npm.js ${process.versions.npm} | v8 ${process.versions.v8}`);
+	logger.info(`Running on ${process.platform} ${process.arch}`);
+	logger.info(`Serving in ${client.guilds.cache.size} servers`);
+	logger.info(`Watching ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} users`);
+	logger.info(`Playing with ${client.commands.size} commands`);
+	logger.info(`Listening to ${client.channels.cache.size} channels`);
+	logger.info("Made with <3 by Goose");
 	
 });
 
