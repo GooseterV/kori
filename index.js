@@ -91,7 +91,7 @@ const choices = [
 client.once(Events.ClientReady, c => {
 	let h = choices[Math.floor(Math.random()*choices.length)];
 	client.user.setActivity(h, { type: "STREAMING" });
-	client.user.setPresence({ activities: [{ name: choices[index], type: "STREAMING" }], status: "idle" });
+	client.user.setPresence({ activities: [{ name: h, type: "STREAMING" }], status: "idle" });
 	setInterval(() => {
 		const index = Math.floor(Math.random() * (choices.length) + 1);
 		client.user.setActivity(choices[index], { type: "STREAMING" });
