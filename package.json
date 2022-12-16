@@ -19,7 +19,7 @@
     "winter"
   ],
   "engines": {
-    "node": "16.17.0"
+    "node": "19.3.0"
   },
   "author": "goose",
   "license": "MIT",
