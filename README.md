@@ -1,4 +1,4 @@
-# **氷**
+# **こおり (氷)**
 
 ### Kōri - a multi-utility discord bot made with python3, vscode, and heroku.
 ___
