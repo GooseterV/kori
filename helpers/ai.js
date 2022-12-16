@@ -4,9 +4,9 @@ loadEnv();
 
 async function makeQuery(q) {
 	
-	const ChatGPTAPI = await (await import("chatgpt")).ChatGPTAPI;
-	const getOpenAIAuth = await (await import("chatgpt")).getOpenAIAuth;
-
+	const chatgpt = await import("chatgpt");
+	const { ChatGPTAPI, getOpenAIAuth } = chatgpt;
+	
 	const auth = await getOpenAIAuth({
 		email: process.env.OPENAI_EMAIL,
 		password: process.env.OPENAI_PASSWORD
