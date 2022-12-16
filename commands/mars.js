@@ -1,7 +1,7 @@
 const { SlashCommandBuilder, EmbedBuilder} = require("discord.js");
 const dotenv = require("dotenv");
 const config = require("../config.json");
-const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
+//const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
 dotenv.config();
 
 const cmd = new SlashCommandBuilder()

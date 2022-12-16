@@ -6,7 +6,7 @@ const config = require("../config.json");
 const StackBlur = require("stackblur-canvas");
 const sharp = require("sharp");
 const {loadImage} = require("canvas");
-const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
+//const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
 dotenv.config();
 
 const cmd = new SlashCommandBuilder()

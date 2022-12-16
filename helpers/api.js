@@ -1,4 +1,4 @@
-const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
+//const fetch = (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
 const helpers = require("./helpers.js");
 class AuthManager {
 	constructor(options = {"token":null, "cookie":null, "credentials":false, "username":null, "password":null, "isCookieBased":false}) {
