@@ -15,7 +15,7 @@ class ChainableNumber {
 	static PHI = (1 + Math.sqrt(5)) / 2;
 	static EPSILON = Number.EPSILON;
 
-	static fromExponential(n) {
+	static fromExponential(n:string="0e0") {
 		let [m, e] = n.split("e");
 		return new ChainableNumber(parseFloat(m) * Math.pow(10, parseInt(e)));
 	}
@@ -36,7 +36,7 @@ class ChainableNumber {
 		return this;
 	}
 
-	times(n:number) {
+	multiply(n:number) {
 		this.#value *= n;
 		return this;
 	}
