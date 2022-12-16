@@ -89,10 +89,10 @@ const choices = [
 
 
 client.once(Events.ClientReady, c => {
-	client.user.setActivity(choices[Math.floor(Math.random()*choices.length)], { type: "COMPETING" });
+	client.user.setActivity(choices[Math.floor(Math.random()*choices.length)], { type: "STREAMING" });
 	setInterval(() => {
 		const index = Math.floor(Math.random() * (choices.length) + 1);
-		client.user.setActivity(choices[index], { type: "COMPETING" });
+		client.user.setActivity(choices[index], { type: "STREAMING" });
 	}, 1e3*60*5);
 	client.user.setStatus("idle");
 	console.log(`Ready! Logged in as ${c.user.tag}`);
