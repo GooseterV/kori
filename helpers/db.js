@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const { Sequelize, Op, Model, DataTypes } = require("sequelize");
+const { Sequelize } = require("sequelize");
 const dotenv = require("dotenv");
 dotenv.config();
 
