@@ -25,4 +25,4 @@ Start in development mode or production.
 
 ___
 
-<img src="assets/repo.png">
+<img src="assets/repo.jpg">
