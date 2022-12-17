@@ -10,7 +10,7 @@ const cmd = new SlashCommandBuilder()
 async function execute(interaction) {
 	await interaction.deferReply();
 	// eslint-disable-next-line no-undef
-	const res = await (await fetch("https://santa-api.appspot.com/info?client=api=")).json();
+	const res = await (await fetch("https://santa-api.appspot.com/info?client=api")).json();
 	if (res.takeoff > res.now) return interaction.editReply({ content: "Santa hasn't taken off yet!", ephemeral: true });
 	const e = new EmbedBuilder()
 		.setColor(config["color-main"])
