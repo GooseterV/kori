@@ -93,15 +93,13 @@ client.once(Events.ClientReady, c => {
 		const index = Math.floor(Math.random() * (choices.length) + 1);
 		client.user.setActivity(choices[index]);
 	}, 1e3*60*5);
-	
 	logger.info(`Logged in as ${c.user.tag.normalize("NFC")} | ${c.user.id}.`);
 	logger.info(`Node.js ${process.version} | Discord.js v${version}`);
 	logger.info(`npm.js ${process.versions.npm} | v8 ${process.versions.v8}`);
 	logger.info(`Running on ${process.platform} ${process.arch}`);
 	logger.info(`Serving in ${client.guilds.cache.size} servers`);
 	logger.info(`Watching ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)} users`);
-	logger.info(`Playing with ${client.commands.size} commands`);
-	logger.info(`Listening to ${client.channels.cache.size} channels`);
+	logger.info(`Listening to ${client.guilds.cache.map(x=>x.channels.cache.size).reduce((a, b)=>a+b)} channels`);
 	logger.info("Made with <3 by Goose");
 	
 });
