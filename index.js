@@ -58,31 +58,7 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
-const choices = [
-	"in " + client.guilds.cache.size + " servers",
-	"with " + client.guilds.cache.reduce((a, g) => a + g.memberCount, 0) + " users",
-	"with " + client.commands.size + " commands",
-	"in " + client.channels.cache.size + " channels",
-	"with your mom",
-	"Made by @Goose#4825",
-	"Created for the Snowcode 2022 Hackathon",
-	"with other multi-purpose bots",
-	"with other bots",
-	"on discord",
-	"Made with <3 by Goose",
-	"Discord.js v14, Node.js v16, and JavaScript",
-	"DJS v14, Node.js v16, and JS",
-	"Deployed with Heroku && GitHub",
-	"The best bot.",
-	"Not the best bot.",
-	"It's okay, I'm here now.",
-	"Serving " + client.guilds.cache.size + " servers",
-	"Watching " + client.guilds.cache.reduce((a, g) => a + g.memberCount, 0) + " users",
-	"Playing with " + client.commands.size + " commands",
-	"Listening to " + client.channels.cache.size + " channels",
-	"<3",
-	"Kori - Ice, Icicle",
-];
+
 /*
 client.on(Events.MessageCreate, async message => {
 	try {
@@ -101,6 +77,31 @@ client.on(Events.MessageCreate, async message => {
 });*/
 
 client.once(Events.ClientReady, c => {
+	const choices = [
+		"in " + client.guilds.cache.size + " servers",
+		"with " + client.guilds.cache.reduce((a, g) => a + g.memberCount, 0) + " users",
+		"with " + client.commands.size + " commands",
+		"in " + client.channels.cache.size + " channels",
+		"with your mom",
+		"Made by @Goose#4825",
+		"Created for the Snowcode 2022 Hackathon",
+		"with other multi-purpose bots",
+		"with other bots",
+		"on discord",
+		"Made with <3 by Goose",
+		"Discord.js v14, Node.js v16, and JavaScript",
+		"DJS v14, Node.js v16, and JS",
+		"Deployed with Heroku && GitHub",
+		"The best bot.",
+		"Not the best bot.",
+		"It's okay, I'm here now.",
+		"Serving " + client.guilds.cache.size + " servers",
+		"Watching " + client.guilds.cache.reduce((a, g) => a + g.memberCount, 0) + " users",
+		"Playing with " + client.commands.size + " commands",
+		"Listening to " + client.channels.cache.size + " channels",
+		"<3",
+		"Kori - Ice, Icicle",
+	];
 	let h = choices[Math.floor(Math.random()*choices.length)];
 	client.user.setActivity(h);
 	setInterval(() => {
