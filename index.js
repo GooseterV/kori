@@ -11,7 +11,7 @@ loadEnv();
 
 // https://discord.com/api/oauth2/authorize?client_id=1049110989062295652&permissions=8&scope=bot%20applications.commands
 const token = process.env.BOT_TOKEN;
-const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMembers] });
 
 client.commands = new Collection();
 
