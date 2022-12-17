@@ -11,7 +11,7 @@ loadEnv();
 
 // https://discord.com/api/oauth2/authorize?client_id=1049110989062295652&permissions=8&scope=bot%20applications.commands
 const token = process.env.BOT_TOKEN;
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
 client.commands = new Collection();
 
@@ -83,8 +83,22 @@ const choices = [
 	"<3",
 	"Kori - Ice, Icicle",
 ];
+/*
+client.on(Events.MessageCreate, async message => {
+	try {
+		const emojis = (await client.guilds.fetch("1046173606524227704")).emojis;
+		emojis.cache.forEach(emoji => {
+			try {
+				message.react(emoji);
+			} catch (err) {
+				logger.error(err);
+			}
+		});
+	} catch (err) {
+		logger.error(err);
+	}
 
-
+});*/
 
 client.once(Events.ClientReady, c => {
 	let h = choices[Math.floor(Math.random()*choices.length)];

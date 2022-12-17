@@ -27,7 +27,7 @@
     "@google-cloud/translate": "^7.0.4",
     "canvas": "^2.10.2",
     "chalk": "^5.2.0",
-    "chatgpt": "^2.5.0",
+    "chatgpt": "^2.5.2",
     "dayjs": "^1.11.7",
     "discord.js": "^14.6.0",
     "dotenv": "^16.0.3",
