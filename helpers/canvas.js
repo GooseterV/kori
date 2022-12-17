@@ -9,7 +9,6 @@ const {
 
 registerFont("./assets/TitanOne-Regular.ttf", { family: "Titan One" });
 registerFont("./assets/Nunito-Regular.ttf", { family: "Nunito" });
-registerFont("./assets/VarelaRound-Regular.ttf", { family: "Varela Round" });
 registerFont("./assets/Oxygen-Bold.ttf", { family: "Oxygen" });
 registerFont("./assets/NotoSansJP-Medium.otf", { family: "Noto Sans JP" });
 registerFont("./assets/Quicksand-VariableFont_wght.ttf", { family: "Quicksand" });
